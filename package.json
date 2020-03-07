@@ -1,5 +1,5 @@
 {
-  "name": "vault-chrome-extension",
+  "name": "vaultPass",
   "version": "1.1.0",
   "description": "This extension will access specified Vault server and authenticate",
   "main": "",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeichenanonym/vault-chrome-extension.git"
+    "url": "git+https://github.com/mulbc/vaultPass.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeichenanonym/vault-chrome-extension/issues"
+    "url": "https://github.com/mulbc/vaultPass/issues"
   },
-  "homepage": "https://github.com/zeichenanonym/vault-chrome-extension#readme",
+  "homepage": "https://github.com/mulbc/vaultPass#readme",
   "devDependencies": {
     "webextension-polyfill": "^0.3.1"
   }
