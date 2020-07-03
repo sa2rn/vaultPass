@@ -1,6 +1,14 @@
 /* eslint-disable no-console */
 /* global chrome */
 
+
+chrome.tabs.onActivated.addListener(function() {
+  chrome.storage.sync.set({number: 1}, function() {
+    chrome.browserAction.setBadgeText({text: ""+Math.random()});
+  });
+});
+
+
 function storageGetterProvider(storageType) {
   return function (key, defaultValue) {
     return new Promise(function(resolve, reject) {
